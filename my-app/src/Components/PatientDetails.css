@@ -1,0 +1,9 @@
+/* CSS Styling for DETAILED PATIENTS PAGE */
+
+.detailed_patient {
+    text-align: center;
+}
+
+.detailed_patient li {
+    list-style-type: none;
+}

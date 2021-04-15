@@ -1,0 +1,12 @@
+.all_patients {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.all_patients ul {
+    list-style-type: none;
+}
+.all_patients li {
+    margin: 1rem 0rem;
+    text-decoration: none;
+}

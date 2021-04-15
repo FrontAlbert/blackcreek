@@ -1,0 +1,99 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Text Underline Removal */
+.text_underline{
+    text-decoration: none;
+}
+
+.text_underline:hover{
+    text-decoration: underline;
+}
+
+/* Dashboard Login Page styling */
+.dashboard {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button_animation{
+    margin-top: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.button_animation:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* CSS Styling for ALL PATIENTS PAGE
+
+.all_patients {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.all_patients h2,
+h3,
+h4 {
+    text-decoration: none;
+}
+
+.all_patients ul {
+    list-style-type: none;
+}
+.all_patients li {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+/* CSS Styling for DETAILED PATIENTS PAGE */
+
+/* .detailed_patient {
+    text-align: center;
+}
+
+.detailed_patient li {
+    list-style-type: none;
+} */ 
